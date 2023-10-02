@@ -41,7 +41,7 @@ export const getMenu = () => {
 
 	return /*html*/`
 	<nav class="menu">
-		<ul>
+		<ul id="menu-list">
 			${pageNames.map(pageName => `<li><a href="${getPageIdCode(pageName)}"${getMenuClass(pageName)}>${pageName}</a></li>`).join('')}
 		</ul>
 	</nav>

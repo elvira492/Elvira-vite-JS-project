@@ -1,4 +1,5 @@
 import './style.css'
+import {getMenu} from './Router'
 
 
 document.querySelector('#app').innerHTML = /*html*/ `
@@ -18,45 +19,15 @@ document.querySelector('#app').innerHTML = /*html*/ `
                 <div class="line2"></div>
             </button>
             
-            <ul id="menu-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Mission</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        ${getMenu()}
         </div>
 
         <section class="hero-text">
             <h2>Revolutionary sleep technology<h2>
             <h2>Superior comfort and support</h2>
         </section>
-    </header>
-     
-    
-    <section class="about">
-        <h2>Über Uns</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ultricies tortor, non egestas ante. Sed varius ante eu ultrices.</p>
-    </section>
-    
-    <section class="products">
-        <h2>Unsere Produkte</h2>
-        <div class="product">
-            <img src="product1.jpg" alt="Produkt 1">
-            <h3>Produkt 1</h3>
-            <p>Beschreibung des Produkts 1.</p>
-        </div>
-        <div class="product">
-            <img src="product2.jpg" alt="Produkt 2">
-            <h3>Produkt 2</h3>
-            <p>Beschreibung des Produkts 2.</p>
-        </div>
-    </section>
-    
-    <section class="contact">
-        <h2>Kontakt</h2>
-        <p>Kontaktinformationen und ein Kontaktformular können hier eingefügt werden.</p>
-    </section>
-    
+    </header> 
+
     <footer>
         <p>&copy; 2023 InnovaSleepTech</p>
     </footer>
