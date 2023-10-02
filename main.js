@@ -61,3 +61,17 @@ document.querySelector('#app').innerHTML = /*html*/ `
         <p>&copy; 2023 InnovaSleepTech</p>
     </footer>
 `
+// burger menu
+document.addEventListener('DOMContentLoaded', function () {
+  const menuButton = document.getElementById('menu-button');
+  const menuList = document.getElementById('menu-list');
+
+  menuButton.addEventListener('click', function () {
+      if (menuList.style.display === 'block') {
+          menuList.style.display = 'none';
+      } else {
+          menuList.style.display = 'block';
+      } 
+  });
+});
+// ->
