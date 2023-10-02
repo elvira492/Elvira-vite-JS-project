@@ -1,5 +1,5 @@
 import './style.css'
-import {getMenu} from './Router'
+import {getMenu, getCurrentPage} from './Router'
 
 
 document.querySelector('#app').innerHTML = /*html*/ `
@@ -27,6 +27,8 @@ document.querySelector('#app').innerHTML = /*html*/ `
             <h2>Superior comfort and support</h2>
         </section>
     </header> 
+
+    ${getCurrentPage()}
 
     <footer>
         <p>&copy; 2023 InnovaSleepTech</p>
