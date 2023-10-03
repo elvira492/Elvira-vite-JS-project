@@ -1,18 +1,18 @@
 import * as tools from './tools';
-import { PageHome } from './pages/PageHome';
+import { PageBrands } from './pages/PageBrands';
 import { PageMission } from './pages/PageMission';
 import { PageCareers } from './pages/PageCareers';
 import { PageContact } from './pages/PageContact';
 import { Page404 } from './pages/Page404';
 
-const pageNames = ['Home', 'Mission', 'Careers', 'Contact'];
+const pageNames = ['Brands', 'Mission', 'Careers', 'Contact'];
 
 const currentPageIdCode = getSmartCurrentPageId();
 
 export const getCurrentPage = () => {
 	switch (currentPageIdCode) {
-		case 'home':
-			return PageHome();
+		case 'brands':
+			return PageBrands();
 		case 'mission':
 			return PageMission();
 		case 'careers':
