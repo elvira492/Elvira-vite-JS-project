@@ -16,22 +16,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	return /*html*/`
 <header>
-            <video autoplay loop muted id="video">
-                    <source src="https://innovasleeptech.com/wp-content/uploads/2023/01/video-bg.mp4" >
-            </video>
-
+        <video autoplay loop muted id="video">
+                <source src="https://innovasleeptech.com/wp-content/uploads/2023/01/video-bg.mp4" >
+        </video>
+  <section id="header-responsive2">
+        <section id="header-responsive">
             <div id ="logo">
-                <img src="./img/android-icon-192x192.png" alt="logo">
+                <div id=logo1><img src="./img/android-icon-192x192.png" alt="logo"></div> 
+                <h3>Innovative Sleep Technologies®</h3>
             </div>
 
-        <div class="menu-container"> <!-- burger -->
+      
             <button id="menu-button">
                 <div class="line1"></div>
                 <div class="line2"></div>
             </button>
-            
-        ${getMenu()}
-        </div>
+      
+         </section> 
+        ${getMenu()} <!-- menu,menu-list -->
+    </section>
+  
 
         <section class="hero-text">
             <h2>Revolutionary sleep technology<h2>
