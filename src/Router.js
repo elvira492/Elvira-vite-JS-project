@@ -52,7 +52,7 @@ export const getMenu = () => {
 }
 
 
-function getSmartCurrentPageId() {
+export function getSmartCurrentPageId() {
 	let currentPageIdCode = tools.getCurrentPageIdCode();
 	currentPageIdCode = currentPageIdCode === '' ? tools.cleanCharactersToAscii(pageNames[0].toLowerCase()) : currentPageIdCode;
 	return currentPageIdCode;

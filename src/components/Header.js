@@ -1,4 +1,5 @@
 import {getMenu} from '../Router'
+import {Video} from './Video'
 
 export const Header = () => {
     // burger menu
@@ -24,10 +25,7 @@ export const Header = () => {
 
 	return /*html*/`
 <header>
-        <video autoplay loop muted id="video">
-                <source src="https://innovasleeptech.com/wp-content/uploads/2023/01/video-bg.mp4" >
-        </video>
-        
+    ${Video()}
     <section id="header-responsive2">
 
         <section id="header-responsive">
