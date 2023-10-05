@@ -1,6 +1,7 @@
 export const PageCareers = () => {
 	return /*html*/`
 <div class="page pageCareers">
+	<h4 id="careers">Careers</h4>
 	<h2>Start doing work that matters</h2>
 	<p id="career-p">Want to make an impact on people's lives creating the best sleeping experience? Join the team — we're hiring!</p>
 

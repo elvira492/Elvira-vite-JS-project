@@ -285,6 +285,12 @@ aside ul li:nth-of-type(5) {
  color: rgb(35, 34, 34, 0.8);
  font-size: small;
 }
+#careers {
+background-color: rgba(209, 209, 209, 0.187);
+text-align: start;
+padding: 0.5rem;
+opacity: 0.6;
+}
 @media screen and (min-width: 768px){
 #grid-container {
   display:grid;
@@ -319,13 +325,55 @@ justify-items: center;
   width: 40vw;
   padding: 0 6rem;
 }
-
-
 }
+
+
+
+
+
+
+
+
 /* CONTACT */
+#contact{
+background-color: rgba(209, 209, 209, 0.187);
+text-align: left;
+
+padding: 0.5rem;
+opacity: 0.6;
+}
+.pageContact img {
+width: 100%;
+object-fit: cover;
+}
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: small;
+}
+.card-contact a{
+  text-decoration: none;
+  color: rgb(69, 194, 69);
+}
+@media screen and (min-width: 768px) {
+  .container-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-size: large;
+    padding: 4rem 0;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
 
 /* FOOTER */
-
 footer {
   position: relative;
   bottom: 0;
