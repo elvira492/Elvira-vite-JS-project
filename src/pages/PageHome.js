@@ -30,6 +30,9 @@ export const PageHome = () => {
         font-size:xx-large;
         opacity: 0.9;
     } 
+    #header-responsive2  {
+        border-bottom:1px rgb(255, 255, 255, 0.15) solid;
+    }
     }
 </style>
 `;
