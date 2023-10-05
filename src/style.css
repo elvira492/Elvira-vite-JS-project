@@ -6,7 +6,7 @@ body {
 
 }
 header {
-  height: 20vh;
+  height: 15vh;
 }
 #header-responsive{
 display: flex;
@@ -98,7 +98,7 @@ margin: 5vh 10vw;
   top: 0;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 45%;
   object-fit: cover;
 }
 
@@ -199,7 +199,6 @@ margin: 0 0 -1.5rem 0;
     z-index: 0;
   } */
   .page {
-  color:rgba(191, 16, 16, 0.6);
   margin-top: 10vh;
   position:relative;
   }
@@ -208,9 +207,9 @@ margin: 0 0 -1.5rem 0;
     z-index: 0;
 
   }
-  .hero-text {
+ /*  .hero-text {
     display: none;
-  }
+  } */
 }
 
 
@@ -222,7 +221,7 @@ margin: 0 0 -1.5rem 0;
 /* BRANDS */
 /* MISSION */
 .hero-mission img{
-height: 80vh;
+height: 50vh;
 width: 100%;
 object-fit: cover;
 
@@ -245,7 +244,84 @@ aside ul li:nth-of-type(5) {
   font-size: xx-large;
 }
 
+
+
+
+
+
+
 /* CAREERS */
+.pageCareers {
+  padding: 0 1rem;
+}
+.pageCareers h2 {
+  font-weight: bold;
+  color: rgb(35, 34, 34, 0.9);
+}
+#career-p {
+  padding:0 8rem;
+  font-size: small;
+}
+.container{
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.card {
+  background-color: rgba(128, 128, 128, 0.111);
+  border: 1px solid rgba(128, 128, 128, 0.421);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding:0 2rem;
+}
+.card:hover{
+  background-color: rgba(209, 209, 209, 0.507);
+}
+.header-job {
+  display: flex;
+ justify-content: space-around;
+ color: rgb(35, 34, 34, 0.8);
+ font-size: small;
+}
+@media screen and (min-width: 768px){
+#grid-container {
+  display:grid;
+  grid-template-rows: repeat(3, 1fr);
+ grid-template-columns: repeat(3, 1fr);
+ max-height: 90vh;
+justify-content: center;
+justify-items: center;
+}
+#marketing {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 2rem 0;
+  text-align: start;
+  
+}
+.one{
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+#customer {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 2rem 0;
+  text-align: start;
+}
+.two {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+.card {
+  width: 40vw;
+  padding: 0 6rem;
+}
+
+
+}
 /* CONTACT */
 
 /* FOOTER */

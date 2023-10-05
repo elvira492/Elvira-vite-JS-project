@@ -15,10 +15,6 @@ export const Header = () => {
             } 
         });
 
-        menuList.addEventListener('click', function (event) {
-            // Verhindere, dass der Klick auf ein Element in der menuList die Menüliste schließt
-            event.stopPropagation();
-        });
     });
 
 
