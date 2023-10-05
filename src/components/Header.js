@@ -51,7 +51,7 @@ export const Header = () => {
         </section>
     
     </header> 
-     <div id="icon-arrow"><box-icon name='chevron-down' animation='fade-down' flip='horizontal' ></box-icon></div>
+     <!-- <div id="icon-arrow"><box-icon name='chevron-down' animation='fade-down' flip='horizontal' ></box-icon></div> -->
 `;
 
 
