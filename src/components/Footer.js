@@ -19,7 +19,7 @@ export const Footer = () => {
            <p>
         At Innovative Sleep Technologies, we value your feedback and are here to answer any questions you may have. Please don't hesitate to reach out to us by writing or calling. Your satisfaction is our top priority. 
         </p>
-        <p>&copy;© 2023 Innovative Sleep Technologies Inc. All Rights Reserved.</p>
+        <p>&copy; 2023 Innovative Sleep Technologies Inc. All Rights Reserved.</p>
         </div>
 
     </footer>
