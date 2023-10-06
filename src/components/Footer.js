@@ -26,6 +26,18 @@ export const Footer = () => {
         </div>
 
     </div>
+
+        <div id="top1">
+            <a  href="#top">
+            <box-icon name='up-arrow-circle'
+             type='solid'
+             animation='fade-up'
+             size="lg"
+             flip='horizontal'
+             pull = "right"
+             color="orange"></box-icon>
+            </a>
+        </div>
         
     </footer>
 `;
