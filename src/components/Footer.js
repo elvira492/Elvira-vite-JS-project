@@ -3,8 +3,10 @@ export const Footer = () => {
 	return /*html*/`
     <footer>
 
-        <div class="footer">
-<div class="contactus">
+    <div class="footer">
+        
+        <div class="contactus">
+
             <a href="mailto:info@innovasleeptech.com">info@innovasleeptech.com</a>
             <a href="tel:+ 1 (314) 499-8869">+ 1 (314) 499-8869</a>
         </div>
@@ -18,12 +20,12 @@ export const Footer = () => {
 
         <div class="footer-footer">
            <p>
-        At Innovative Sleep Technologies, we value your feedback and are here to answer any questions you may have. Please don't hesitate to reach out to us by writing or calling. Your satisfaction is our top priority. 
-        </p>
-        <p>&copy; 2023 Innovative Sleep Technologies Inc. All Rights Reserved.</p>
+            At Innovative Sleep Technologies, we value your feedback and are here to answer any questions you may have. Please don't hesitate to reach out to us by writing or calling. Your satisfaction is our top priority. 
+            </p>
+            <p>&copy; 2023 Innovative Sleep Technologies Inc. All Rights Reserved.</p>
         </div>
 
-        </div>
+    </div>
         
     </footer>
 `;
