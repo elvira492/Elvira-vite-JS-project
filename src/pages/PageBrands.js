@@ -7,7 +7,9 @@ export const PageBrands = () => {
 	</div>
 	<p>Transparency should not be a luxury. At Symphony Sleep, you can rest easy knowing that our curated sleep and lifestyle products are manufactured thoughtfully using high-quality, traceable materials.</p>
 
-	<div id="hero-symphony"></div>
+	<div id="hero-symphony">
+		<p>Dreaming in <em>harmony</em></p>
+	</div>
 	
 	<h4>Mattresses</h4>
 		<p>Set yourself up for the finest sleep possible with features that can be adjusted to your specific sleeping preferences.</p>

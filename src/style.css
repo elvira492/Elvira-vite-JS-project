@@ -294,6 +294,16 @@ width: 20vw;
   position: relative; 
   background-attachment: fixed;
 }
+#hero-symphony>p{
+  position: relative;
+  color: white;
+  font-size:3rem;
+  font-family: 'Unna', serif;
+  width: 70%;
+  top: 25%;
+  left: 20%;
+  opacity: 0.9;
+}
 @media screen and (min-width: 768px) {
   .container-products {
     display: flex;
@@ -311,6 +321,12 @@ width: 20vw;
 .pageBrands>p:nth-of-type(1){
   padding: 0 30vw 2rem;
   text-align: center;
+}
+#hero-symphony>p{
+  font-size:5rem;
+  width: 40%;
+  top: 25%;
+  left: 35%;
 }
 
 }
