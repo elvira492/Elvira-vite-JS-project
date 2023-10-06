@@ -1,15 +1,18 @@
 export const PageBrands = () => {
 	return /*html*/`
 <div class="page pageBrands">
-<div class="logo">
-	<img src="./public/img/symphony-sleep-logo.png" alt="">
-	<h2>symphony sleep</h2>
+	<div class="logo">
+		<img src="./public/img/symphony-sleep-logo.png" alt="logo">
+		<h2>symphony sleep</h2>
+	</div>
 	<p>Transparency should not be a luxury. At Symphony Sleep, you can rest easy knowing that our curated sleep and lifestyle products are manufactured thoughtfully using high-quality, traceable materials.</p>
 
-	<div class="container-products">
-		<h4>Mattresses</h4>
+	<div id="hero-symphony"></div>
+	
+	<h4>Mattresses</h4>
 		<p>Set yourself up for the finest sleep possible with features that can be adjusted to your specific sleeping preferences.</p>
-
+	<div class="container-products">
+	
 		<div class="card-product">
 			<h2>12' Medium</h2>
 			<h5>Hybryd Collection Available in 5 sizes</h5>
@@ -31,9 +34,10 @@ export const PageBrands = () => {
 			<li>Twin</li></ul>
 
 			<div class="card-img">
-				<img src="public/img/SS-Medium-1.jpg" alt="mattress">
-				<img src="public/img/SS-Medium-2.jpg" alt="mattress">
-				<img src="public/img/SS-Medium-3.jpg" alt="mattress">
+				<div class="border-img"><img src="public/img/SS-Medium-1.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="public/img/SS-Medium-2.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="public/img/SS-Medium-3.jpg" alt="mattress"></div>
+				
 			</div>
 		</div>
 
@@ -58,9 +62,9 @@ export const PageBrands = () => {
 			<li>Twin</li></ul>
 
 			<div class="card-img">
-				<img src="public/img/SS-Plush-1.jpg" alt="mattress">
-				<img src="public/img/SS-Plush-2.jpg" alt="mattress">
-				<img src="public/img/SS-Plush-3.jpg" alt="mattress">
+				<div class="border-img"><img src="public/img/SS-Plush-1.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="public/img/SS-Plush-2.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="public/img/SS-Plush-3.jpg" alt="mattress"></div>		
 			</div>
 		</div>
 
@@ -85,14 +89,18 @@ export const PageBrands = () => {
 			<li>Twin</li></ul>
 
 			<div class="card-img">
-				<img src="public/img/SS-Firm-1.jpg" alt="mattress">
-				<img src="public/img/SS-Firm-2.jpg" alt="mattress">
-				<img src="public/img/SS-Firm-3.jpg" alt="mattress">
+				<div class="border-img"><img src="public/img/SS-Firm-1.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="public/img/SS-Firm-2.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="public/img/SS-Firm-3.jpg" alt="mattress"></div>				
 			</div>
 		</div>
 	</div>
 </div>	
 
+	<div class="details"><h6>More Details hier:</h6>
+	<a href="https://symphonysleep.com/ " target ="_blank">symphonysleep.com</a>
+	</div>
+	
 </div>
 `;
 }

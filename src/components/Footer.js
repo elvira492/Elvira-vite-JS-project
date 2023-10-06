@@ -1,10 +1,8 @@
-import {Video} from './Video'
 
 export const Footer = () => {
 	return /*html*/`
     <footer>
 
-    ${Video()}
         <div class="footer">
 <div class="contactus">
             <a href="mailto:info@innovasleeptech.com">info@innovasleeptech.com</a>
