@@ -18,7 +18,6 @@ export const Header = () => {
     });
 
 
-
 	return /*html*/`
 <header>
     ${Video()}
@@ -26,7 +25,8 @@ export const Header = () => {
 
         <section id="header-responsive">
             <div id ="logo">
-                <div id=logo1><img src="./img/android-icon-192x192.png" alt="logo"></div> 
+                <a href="http://localhost:5173/home">   <div id=logo1><img src="./img/android-icon-192x192.png" alt="logo"></div></a>
+             
                 <h3>Innovative Sleep Technologies®</h3>
             </div>
 
@@ -34,8 +34,6 @@ export const Header = () => {
                 <div class="line1"></div>
                 <div class="line2"></div>
             </button>
-
-        
             
          </section> 
         ${getMenu()} <!-- menu,menu-list -->
@@ -45,10 +43,7 @@ export const Header = () => {
             <h2>Revolutionary sleep technology<h2>
             <h2>Superior comfort and support</h2>
         </section>
-    
-    </header> 
-     <!-- <div id="icon-arrow"><box-icon name='chevron-down' animation='fade-down' flip='horizontal' ></box-icon></div> -->
+
+</header> 
 `;
-
-
 }

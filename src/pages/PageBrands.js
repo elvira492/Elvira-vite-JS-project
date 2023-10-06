@@ -29,11 +29,8 @@ export const PageBrands = () => {
 			</ul>
 			<h5>Size</h5>
 			<ul>
-			<li>Full</li>
-			<li>King</li>
-			<li>Twin XL</li>
-			<li>King</li>
-			<li>Twin</li></ul>
+			<li>Full, Queen, Twin XL, King, Twin</li>
+			</ul>
 
 			<div class="card-img">
 				<div class="border-img"><img src="public/img/SS-Medium-1.jpg" alt="mattress"></div>
@@ -57,11 +54,8 @@ export const PageBrands = () => {
 			</ul>
 			<h5>Size</h5>
 			<ul>
-			<li>Full</li>
-			<li>King</li>
-			<li>Twin XL</li>
-			<li>King</li>
-			<li>Twin</li></ul>
+			<li>Full, Queen, Twin XL, King, Twin</li>
+			</ul>
 
 			<div class="card-img">
 				<div class="border-img"><img src="public/img/SS-Plush-1.jpg" alt="mattress"></div>
@@ -84,11 +78,8 @@ export const PageBrands = () => {
 			</ul>
 			<h5>Size</h5>
 			<ul>
-			<li>Full</li>
-			<li>King</li>
-			<li>Twin XL</li>
-			<li>King</li>
-			<li>Twin</li></ul>
+			<li>Full, Queen, Twin XL, King, Twin</li>
+			</ul>
 
 			<div class="card-img">
 				<div class="border-img"><img src="public/img/SS-Firm-1.jpg" alt="mattress"></div>

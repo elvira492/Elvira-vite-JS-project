@@ -233,6 +233,10 @@ margin: 0 0 -1.5rem 0;
   border-radius: 10px;
   padding: 0.5rem;
 }
+.card-product>h5:nth-of-type(2) {
+  text-align: start;
+  padding-left: 3rem;
+}
 .pageBrands>p {
   padding: 0 5rem 2rem;
 }
@@ -244,7 +248,7 @@ margin: 0 0 -1.5rem 0;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  gap: 1rem;
+  gap: 4rem;
   padding: 0 5rem 2rem;
 }
 .card-img {
@@ -293,6 +297,7 @@ width: 20vw;
   background-repeat: no-repeat;
   position: relative; 
   background-attachment: fixed;
+  background-position: 54% bottom;
 }
 #hero-symphony>p{
   position: relative;
@@ -308,7 +313,7 @@ width: 20vw;
   .container-products {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 3rem;
     justify-content: center;
     padding: 4rem 1rem;
   }
