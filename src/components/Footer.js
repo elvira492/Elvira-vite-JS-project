@@ -1,9 +1,12 @@
+import {Video} from './Video'
+
 export const Footer = () => {
 	return /*html*/`
     <footer>
 
-        
-        <div class="contactus">
+    ${Video()}
+        <div class="footer">
+<div class="contactus">
             <a href="mailto:info@innovasleeptech.com">info@innovasleeptech.com</a>
             <a href="tel:+ 1 (314) 499-8869">+ 1 (314) 499-8869</a>
         </div>
@@ -22,6 +25,8 @@ export const Footer = () => {
         <p>&copy; 2023 Innovative Sleep Technologies Inc. All Rights Reserved.</p>
         </div>
 
+        </div>
+        
     </footer>
 `;
 }

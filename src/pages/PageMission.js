@@ -55,7 +55,7 @@ export const PageMission = () => {
 	</div>
 	
 	<div class="hero-mission">
-		<img src="./img/pexels-fox-2-min.jpg" alt="Factory">
+		<img src="./img/production.jpg" alt="Factory">
 	</div>
 
 </div>

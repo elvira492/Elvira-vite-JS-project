@@ -184,10 +184,12 @@ margin: 0 0 -1.5rem 0;
   position: relative;
   z-index: 1;
   line-height: 1.5;
+  
 }
 .page .text {
   position: relative;
   z-index: 1;
+  padding: 0 3rem;
 }/* damit Mission Text nicht unter hero-text verdeckt ist: */
 
 @media screen and (min-width: 768px){
@@ -219,6 +221,54 @@ margin: 0 0 -1.5rem 0;
 
 /* HOME style in home.js */
 /* BRANDS */
+.pageBrands{
+  padding: 0 5rem;
+}
+.card-product {
+ 
+  border: 1px solid rgba(128, 128, 128, 0.706);
+  border-radius: 10px;
+}
+.card-product ul {
+  list-style: none;
+  text-align: start;
+}
+.card-product ul li {
+  background-color: green;
+}
+.container-products {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  overflow:hidden; /* Überlauf verstecken, wenn das Bild größer wird */
+  transition: transform 0.3s ease; 
+
+}
+.card-img img {
+  width: 30%;
+  
+}
+.card-img img:hover {
+  transform: scale(1.5);
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
 /* MISSION */
 .hero-mission img{
 height: 50vh;
@@ -256,7 +306,7 @@ aside ul li:nth-of-type(5) {
 }
 .pageCareers h2 {
   font-weight: bold;
-  color: rgb(35, 34, 34, 0.9);
+  color: rgb(35, 34, 34, 0.7);
 }
 #career-p {
   padding:0 8rem;
@@ -361,7 +411,7 @@ object-fit: cover;
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
-    font-size: large;
+    font-size:medium;
     padding: 4rem 0;
     justify-content: center;
   }
@@ -382,6 +432,20 @@ footer {
   text-align: center;
   height:fit-content;
   background-color: yellow;
+}
+
+footer > #video-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  z-index: 0;
+}
+#footer {
+  position: relative;
+  z-index: 2;
 }
 /* @media screen and (min-width: 768px){
   footer {
