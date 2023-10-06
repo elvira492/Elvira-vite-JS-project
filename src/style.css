@@ -106,7 +106,7 @@ margin: 5vh 10vw;
   position: relative;
   z-index: 0;
   color: white;
-  margin: 10vh 20%;
+  margin: 7vh 20%;
   text-align: center;
   font-family: 'DM Sans', sans-serif;
   line-height: 1.4;
@@ -341,14 +341,20 @@ width: 20vw;
 
 
 /* MISSION */
-.pageMission {
-  padding: 0 0 5rem 0;
-}
 .hero-mission img{
-height: 50vh;
-width: 100%;
 object-fit: cover;
+width: 100%;
+bottom: 0;
+left: 0;
+height: 40vh;
+position: relative;overflow: hidden;
 }
+.hero-mission {
+width: 100%;
+bottom: 0;
+left: 0;
+height: 40vh;
+ }
 aside {
   padding: 1rem;
 }
@@ -362,9 +368,20 @@ aside ul li:nth-of-type(5) {
   font-weight: 900;
   font-size: xx-large;
 }
-
 .text h3 {
   font-size: xx-large;
+}
+@media screen and (min-width: 768px) {
+  .hero-mission {
+    width: 100%;
+    height: 80vh;
+     }
+     .hero-mission img{
+      object-fit: cover;
+      width: 100%;
+      height: 80vh;
+      overflow: hidden;
+      }
 }
 
 
@@ -518,7 +535,7 @@ footer a {
   color: white;
 }
 footer a:hover {
-  color:#8c7c94;
+  color: rgba(213, 183, 13, 0.855);
 }
 .footer {
   padding: 2rem 20%;
@@ -530,6 +547,7 @@ footer a:hover {
   flex: column;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
 }
 .icons {
   display: flex;
