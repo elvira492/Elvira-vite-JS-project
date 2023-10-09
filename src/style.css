@@ -610,13 +610,10 @@ font-size: small;
     font-size: xx-small;
   }
   #hero-symphony{
-    background-size:cover;
+    background-image: url(/img/start-bg-min.jpg);
     width: 100%;
-    height: 65vh;
-    background-repeat:repeat;
-    position: relative; 
-    background-attachment:fixed;
-    background-position: 50%;
+  background-position:cover;
+
   }
 }
 
