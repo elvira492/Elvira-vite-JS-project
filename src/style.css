@@ -591,10 +591,10 @@ font-size: small;
 /* responsive für Händys */
 @media screen and (min-width: 358px) and (max-width: 600px) {
   header {
-    height: 30vh;
+    height: 20vh;
   }
   #video-header {
-    height: 54%;
+    height: 60%;
   }
   .page {
     margin-top:40vh;
