@@ -6,16 +6,14 @@ export const PageMission = () => {
 	<h3>Mission</h3>
 	<p>Our mission is to provide the highest quality sleep solutions, through innovative design and the use of advanced materials.</p>
 
-	<aside>
-		<ul>
+	<div class="aside">
 		<li id="factories-counter">2</li>
         <li>Factories</li>
         <li id="patents-counter">18</li>
         <li>Patents</li>
         <li id="partners-counter">93</li>
         <li>Partners</li>
-		</ul>
-	</aside>
+	</div>
 
 	<script>
         // Funktion zur Animation der Zahlen
