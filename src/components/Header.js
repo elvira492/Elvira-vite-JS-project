@@ -26,7 +26,6 @@ export const Header = () => {
         <section id="header-responsive">
             <div id ="logo">
                 <a href="/home">   <div id=logo1><img src="/img/android-icon-192x192.png" alt="logo"></div></a>
-             
                 <h3>Innovative Sleep Technologies®</h3>
             </div>
 
