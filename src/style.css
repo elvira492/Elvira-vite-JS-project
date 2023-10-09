@@ -58,7 +58,7 @@ margin: 5vh 10vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 5px; /* Button */
 } 
 
 /* burger */
