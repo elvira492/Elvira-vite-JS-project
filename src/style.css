@@ -291,7 +291,7 @@ width: 20vw;
   font-weight: 900;
  }
 #hero-symphony{
-  background-image: url(public/img/start-bg-min.jpg);
+  background-image: url(/img/start-bg-min.jpg);
   background-size:cover;
   height: 80vh;
   background-repeat: no-repeat;

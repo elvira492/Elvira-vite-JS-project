@@ -5,7 +5,7 @@ export const PageContact = () => {
 	<h5>Let's chat</h5>
 	<h4>We're Here to Help</h4>
 	<p>We have partners and teams in multiple locations.</p>
-	<img src="./img/map.png" alt="World map">
+	<img src="/img/map.png" alt="World map">
 	<div class="container-contact">
 		<div class="card-contact">
 			<h4>Support</h4>

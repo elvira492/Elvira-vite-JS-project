@@ -2,7 +2,7 @@ export const PageBrands = () => {
 	return /*html*/`
 <div class="page pageBrands">
 	<div class="logo">
-		<img src="./public/img/symphony-sleep-logo.png" alt="logo">
+		<img src="/img/symphony-sleep-logo.png" alt="logo">
 		<h2>symphony sleep</h2>
 	</div>
 	<p>Transparency should not be a luxury. At Symphony Sleep, you can rest easy knowing that our curated sleep and lifestyle products are manufactured thoughtfully using high-quality, traceable materials.</p>
@@ -33,9 +33,9 @@ export const PageBrands = () => {
 			</ul>
 
 			<div class="card-img">
-				<div class="border-img"><img src="public/img/SS-Medium-1.jpg" alt="mattress"></div>
-				<div class="border-img"><img src="public/img/SS-Medium-2.jpg" alt="mattress"></div>
-				<div class="border-img"><img src="public/img/SS-Medium-3.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="/img/SS-Medium-1.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="/img/SS-Medium-2.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="/img/SS-Medium-3.jpg" alt="mattress"></div>
 				
 			</div>
 		</div>
@@ -58,9 +58,9 @@ export const PageBrands = () => {
 			</ul>
 
 			<div class="card-img">
-				<div class="border-img"><img src="public/img/SS-Plush-1.jpg" alt="mattress"></div>
-				<div class="border-img"><img src="public/img/SS-Plush-2.jpg" alt="mattress"></div>
-				<div class="border-img"><img src="public/img/SS-Plush-3.jpg" alt="mattress"></div>		
+				<div class="border-img"><img src="/img/SS-Plush-1.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="/img/SS-Plush-2.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="/img/SS-Plush-3.jpg" alt="mattress"></div>		
 			</div>
 		</div>
 
@@ -82,9 +82,9 @@ export const PageBrands = () => {
 			</ul>
 
 			<div class="card-img">
-				<div class="border-img"><img src="public/img/SS-Firm-1.jpg" alt="mattress"></div>
-				<div class="border-img"><img src="public/img/SS-Firm-2.jpg" alt="mattress"></div>
-				<div class="border-img"><img src="public/img/SS-Firm-3.jpg" alt="mattress"></div>				
+				<div class="border-img"><img src="/img/SS-Firm-1.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="/img/SS-Firm-2.jpg" alt="mattress"></div>
+				<div class="border-img"><img src="/img/SS-Firm-3.jpg" alt="mattress"></div>				
 			</div>
 		</div>
 	</div>
