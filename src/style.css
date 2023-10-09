@@ -597,7 +597,7 @@ font-size: small;
     height: 60%;
   }
   .page {
-    margin-top:40vh;
+    margin-top:37vh;
   }
   .container-products {
     padding: 0 1rem 2rem;
@@ -612,9 +612,10 @@ font-size: small;
   #hero-symphony{
     background-size:cover;
     width: 100%;
+    height: 55vh;
     background-repeat: no-repeat;
     position: relative; 
-    background-attachment:sticky;
+    background-attachment:fixed;
   }
 }
 
