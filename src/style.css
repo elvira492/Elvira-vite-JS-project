@@ -606,8 +606,17 @@ font-size: small;
     right: 1rem;
    }
    .hero-text {
-    margin: 5vh 20%;
-    font-size: x-small;
+    margin: 15vh 20%;
+    font-size: xx-small;
+  }
+  #hero-symphony{
+    background-image: url(/img/start-bg-min.jpg);
+    background-size:cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    position: relative; 
+    background-attachment:fixed;
+    background-position:0 0;
   }
 }
 
