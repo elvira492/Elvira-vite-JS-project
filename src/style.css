@@ -53,6 +53,12 @@ margin: 5vh 10vw;
   width: 35px;
   height: 35px;
   z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 } 
 
 /* burger */
@@ -61,7 +67,6 @@ margin: 5vh 10vw;
   width: 15.5px;
   height: 1px;
   background-color: rgb(0, 0, 0);
-  margin: 5px 5px;
 }
 /* brands, mission,careers,contact */
 #menu-list {
