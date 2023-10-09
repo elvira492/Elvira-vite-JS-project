@@ -190,7 +190,6 @@ margin: 0 0 -1.5rem 0;
   position: relative;
   z-index: 1;
   line-height: 1.5;
-  
 }
 .page .text {
   position: relative;
@@ -321,7 +320,7 @@ width: 20vw;
     flex-direction: row;
     gap: 3rem;
     justify-content: center;
-    padding: 4rem 1rem;
+    padding: 4rem 4rem;
   }
   .card-img img {
     width: 100%;
@@ -529,6 +528,7 @@ object-fit: cover;
 
 
 
+
 /* FOOTER */
 footer {
   position: relative;
@@ -583,4 +583,28 @@ font-size: small;
  opacity: 0.89;
 }
 
+
+
+
+
+
+/* responsive für Händys */
+@media screen and (min-width: 358px) and (max-width: 600px) {
+  header {
+    background-color: red;
+    height: 20vh;
+  }
+  #video-header {
+    height: 54%;
+  }
+  .page {
+    margin-top:40vh;
+  }
+  .container-products {
+    padding: 0 1rem 2rem;
+  }
+  #top1 {
+    right: 1rem;
+   }
+}
 
