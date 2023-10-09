@@ -616,7 +616,7 @@ font-size: small;
     background-repeat:repeat;
     position: relative; 
     background-attachment:fixed;
-    background-position: 50% bottom;
+    background-position: 50%;
   }
 }
 
